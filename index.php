@@ -1,4 +1,7 @@
 <?php // @codingStandardsIgnoreFile
+
+ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);
+
 /**
  * This file is part of Pico. It's copyrighted by the contributors recorded
  * in the version control history of the file, available from the following

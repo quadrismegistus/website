@@ -27,7 +27,7 @@
   --link-color: var(--color-ocean);
   --text-color: var(--color-asphalt);
 
-  --document-horizontal-margin: 80px;
+  --document-horizontal-margin: 10px;
   --main-content-margin: 0 auto;
   --main-content-max-width: 800px;
   --nav-width: 230px;

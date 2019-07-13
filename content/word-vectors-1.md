@@ -41,6 +41,7 @@ As a brief example of word vectors in action in the 18C, let's think back to the
 <center>
 
 <table style="margin:0">
+  
     <tr>
         <th>_Type of opposition<i>
         <th><i>Associated with  

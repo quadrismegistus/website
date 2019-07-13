@@ -82,35 +82,37 @@ Before we do, drawing on my high school algebra, let's subtract V(King) from bot
 Let's first look at _V(Woman) - V(Man)_, on the right side of the equation, _V(Queen) - V(King) = V(Woman) - V(Man)_. This is an example of a vector subtraction. Mathematically, it works by subtracting the score for V(Man) from the score for V(Woman) along each dimension of the vector space (i.e. the 50-500 dimensions of neuron de/activations in the neural network). But we can also think of this subtraction semantically. What are some of the semantic aspects of the words "Woman" and "Man" that we would expect to be expressed somewhere in the model?
 
 <center>
-
 <table style="margin:0">
-<tr>
-<th>Woman</th>
-<td>Human being</td>
-<td>Adult</td>
-<td>Female</td>
-<td>Noun</td>
-<td>...?</td>
-</tr>
-<tr>
-<th>Man</th>
-<td>Human being</td>
-<td>Adult</td>
-<td>Male</td>
-<td>Noun</td>
-<td>...?</td>
-</tr>
-<tr>
-<th>Woman - Man</th>
-<td>0</td>
-<td>0</td>
-<td>Female - Male</td>
-<td>0</td>
-<td>...?</td>
-</tr>
+  <thead></thead>
+  <tbody>
+  <tr>
+    <th>Woman</th>
+    <td>Human being</td>
+    <td>Adult</td>
+    <td>Female</td>
+    <td>Noun</td>
+    <td>?</td>
+  </tr>
+  <tr>
+    <th>Man</th>
+    <td>Human being</td>
+    <td>Adult</td>
+    <td>Male</td>
+    <td>Noun</td>
+    <td>?</td>
+  </tr>
+  <tr>
+    <th>Woman - Man</th>
+    <td>0</td>
+    <td>0</td>
+    <td>Female - Male</td>
+    <td>0</td>
+    <td>?</td>
+  </tr>
+  </tbody>
 </table>
-
-</center><span><small>_Table 1. Semantic aspects of the words "Woman" and "Man", and the resulting semantic subtraction of Woman-Man._</small></span>
+</center>
+<span><small>Table 1. Semantic aspects of the words "Woman" and "Man", and the resulting semantic subtraction of Woman-Man.</small></span>
 
 In other words, "Woman" is a noun for an adult, female human being. "Man" is a noun for an adult, male human being. If we subtract these semantics of "Man" from the semantics of "Woman", then their shared semantic aspects are eliminated, and we're only left with a single semantic difference: of their genders, "female" and "male." Thus, what is left is only a particular semantic axis of difference: "gender", as conceived as a spectrum, or vector, from male-ness to female-ness.
 
@@ -119,35 +121,37 @@ In other words, "Woman" is a noun for an adult, female human being. "Man" is a n
 Now let's look at _V(Queen) - V(King)_, on the left side of the equation, _V(Queen) - V(King) = V(Woman) - V(Man)_. Again, mathematically, this works by subtracting their scores along each dimension. But semantically, how would this subtraction work?
 
 <center>
-
 <table style="margin:0">
-<tr>
-<th>Queen</th>
-<td>Human being</td>
-<td>Monarch</td>
-<td>Female</td>
-<td>Noun</td>
-<td>...?</td>
-</tr>
-<tr>
-<th>King</th>
-<td>Human being</td>
-<td>Monarch</td>
-<td>Male</td>
-<td>Noun</td>
-<td>...?</td>
-</tr>
-<tr>
-<th>Queen - King</th>
-<td>0</td>
-<td>0</td>
-<td>Female - Male</td>
-<td>0</td>
-<td>...?</td>
-</tr>
+  <thead></thead>
+  <tbody>
+  <tr>
+    <th>Queen</th>
+    <td>Human being</td>
+    <td>Monarch</td>
+    <td>Female</td>
+    <td>Noun</td>
+    <td>?</td>
+  </tr>
+  <tr>
+    <th>King</th>
+    <td>Human being</td>
+    <td>Monarch</td>
+    <td>Male</td>
+    <td>Noun</td>
+    <td>?</td>
+  </tr>
+  <tr>
+    <th>Queen - King</th>
+    <td>0</td>
+    <td>0</td>
+    <td>Female - Male</td>
+    <td>0</td>
+    <td>?</td>
+  </tr>
+  </tbody>
 </table>
-
-</center><span><small>_Table 1. Semantic aspects of the words "Queen" and "King", and the resulting semantic subtraction of Queen-King._</small></span>
+</center>
+<span><small>Table 2. Semantic aspects of the words "Queen" and "King", and the resulting semantic subtraction of Queen-King.</small></span>
 
 Queens and kings are semantically different from women and men: they're monarchs, and not necessarily adults. But since they're _both_ monarchs, the semantic subtraction of King from Queen again leaves only one semantic axis of difference: gender. Thus to subtract King from Queen produces the exact same semantic difference that's produced by subtracting Man from Woman. In mathematical terms: _V(Queen) - V(King) = V(Woman) - V(Man)_. Recall that this equation is equivalent to _V(Queen) = V(King) + V(Woman) - V(Man)_, the original equation. So, semantically, this is Q.E.D., what was to be demonstrated.
 

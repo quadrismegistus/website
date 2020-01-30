@@ -8,10 +8,17 @@ date: 2015-12-04
 
 ## Contact
 
-*   Ph.D. Candidate, English, Stanford University
-*   450 Serra Mall, Building 460, Room 201, Stanford, CA 94305
-*   heuser@stanford.edu
-*   Dissertation: _Abstraction: A Literary History_
+*   Junior Research Fellow, King's College, Cambridge
+*   King's College, King's Parade, Cambridge, UK CB2 1ST
+*   rj416@cam.ac.uk
+
+## Education
+
+* Ph.D in English, Stanford University (September 2019)
+	* Dissertation: *Abstraction: A Literary History*
+	* Committee: John Bender, Mark Algee-Hewitt, Mark Greif
+* M.A. in English, Stanford University (June 2013)
+* B.A. in English  (*summa cum laude*), University of Florida (May 2008)
 
 ## Articles
 

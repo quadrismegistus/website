@@ -1,7 +1,3 @@
----
-Title: Welcome
----
-
 # About me
 
 I am a Junior Research Fellow at King's College, Cambridge, studying English literature and the digital humanities. My work brings computational methods of text analysis to the study of literature and its history.

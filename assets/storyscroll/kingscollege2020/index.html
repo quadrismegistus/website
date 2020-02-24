@@ -648,6 +648,22 @@
 
 			function pad(num, size){ return ('000000000' + num).substr(-size); }
 
+      function preload_images(num_slides) {
+        var images = [];
+
+        for (var i = 0; i < num_slides; i++) {
+            index_int = i + 1
+            index_str = pad(index_int, 3)
+            imgsrc='slides/Slide' + index_str + '.png'
+
+            images[i] = new Image();
+            images[i].src = imgsrc;
+            console.log('loaded image: '+imgsrc)
+        }
+
+
+      }
+
       // scrollama event handlers
       function handleStepEnter(response) {
         console.log(response);
@@ -674,6 +690,7 @@
       }
 
       function init() {
+
         setupStickyfill();
 
         // 1. force a resize on load to ensure proper dimensions are sent to scrollama
@@ -692,6 +709,9 @@
 
         // setup resize event
         window.addEventListener("resize", handleResize);
+
+        // preload
+        preload_images(58);
       }
 
       // kick things off

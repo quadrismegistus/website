@@ -30,7 +30,7 @@
   --document-horizontal-margin: 10px;
   --main-content-margin: 0 auto;
   --main-content-max-width: 800px;
-  --nav-width: 300px;
+  --nav-width: 230px;
   --vertical-padding: 40px;
 }
 
@@ -528,7 +528,7 @@ pre code {
 
 /*  RYAN */
 
-/*.toc { line-height:1.66em;}*/
+.toc { line-height:1.66em;}
 
 
 p { text-align: justify }

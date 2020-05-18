@@ -24,14 +24,6 @@
   {% for css_file in config.external_css %}
     <link rel="stylesheet" href="{{ css_file }}" type="text/css" />
   {% endfor %}
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
-
-  <link rel="stylesheet" href="/assets/magnific-popup.css">
-  <script src="/assets/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="/assets/jquery.magnific-popup.min.js"></script>
-  <script src="/assets/jquery-ui.js"></script>
-
 </head>
 <body>
 <!-- <div class='the_site_title'>{{site_title}}</div> -->
@@ -43,76 +35,155 @@
     <div id='the_site_title'><a href="/">{{site_title}}</a></div>
   </div>
 
+
+<!-- <center><img src="/assets/website-profile.png" alt="Portrait" width="175" border="1"></img></center> -->
+<!-- <center><img src="/assets/mech-24-lg.gif" width="125" height="125"></img></center> -->
+
+<!-- <ul> -->
+
+  <!-- <h5>Table of Contents</h5> -->
+  <!-- <br/> -->
   <div id='toc_spacer'></div>
-  
   <ul class="toc">
 
-    <span class='nav_semititle'>Contents</a></span>
-    <li><a href="/">About me</a></li>
-    <li><a href="/graphs">Graph Blog</a></li>
-    <li><a href="/cv">CV</a></li>
-    <li><a href="/contact">Contact</a></li>
+    <!-- <li><b><a href="#">Contents</a></b> -->
+      <!-- <br/> -->
+
+      <span class='nav_semititle'><a href="/">Contents</a></span>
+  
+  <a href="/">About me</a>
+  
+  <li><a href="/cv">CV</a></li>
+  <li><a href="/contact">Contact</a></li>
+
+  <hr/>
+  
+  <span class='nav_semititle'><a href="/projects">Projects</a></span>
     
-    <hr/>
-    
-    <span class='nav_semititle'>
-      <a href="/projects">Research projects</a>
-    </span>
+  <li class='toplevel'><a href="/abstraction">Abstraction: A Literary History</a>
+    <ul><li><a href="/assets/talks/kingscollege2020" target="_blank">[A scroll-based summary]</a></li></ul>
+  </li>
 
-    <li class='toplevel'><a href="/projects/abstraction">Abstraction: A Literary History</a>
-      <ul>
-        <li class='lowlevel'><a href="/assets/talks/kingscollege2020" target="_blank">[Talk/slides on immateriality]</a></li>
-      </ul>
-    </li>
-
-    <li class='toplevel'><a href="/projects/keydata">Keydata Project</a>
-      <ul><li class='lowlevel'><a href="http://keydataproject.org" target="_blank">[Tools for conceptual history]</a></li></ul>
-    </li>
-    
-
-    <!--
-    <li class='toplevel'><a href="/projects/prosody">Computational Prosody</a>
-      <ul>
-        <li class='lowlevel'><a href="/projects/prose-rhythm">Prose rhythm</a></li>
-        <li class='lowlevel'><a href="/projects/poetry">Historical metrics</a></li>
-      </ul>
-    </li>
-
-    <li class='toplevel'><a href="/projects/personhood">Personhood Project</a>
-      <ul>
-        <li class='lowlevel'><a href="/projects/animacy">Animacy</a></li>
-        <li class='lowlevel'><a href="/projects/personification">Personification</a></li>
-      </ul>
-    </li>
-    -->
-
-    <li class='toplevel'><a href="/word-vectors">Word Vectors in the 18th Cent.</a>
+  <li class='toplevel'><a href="/word-vectors">Word Vectors in the 18th Cent.</a>
     <ul>
-      <li class='lowlevel'><a href="/word-vectors-1">1. Concepts</a></li>
-      <li class='lowlevel'><a href="/word-vectors-2">2. Methods</a></li>
-      <li class='lowlevel'><a href="/assets/storyscroll/word-vectors-3" target='_blank'>3. From fields to vectors</a></li>
-      <li class='lowlevel'><a href="/assets/storyscroll/word-vectors-4" target='_blank'>4. Semantic networks</a></li>
+      <li><a href="/word-vectors-1">1. Concepts</a></li>
+      <li><a href="/word-vectors-2">2. Methods</a></li>
+      <li><a href="/word-vectors-3">3. From fields to vectors</a></li>
+      <li><a href="/word-vectors-4">4. Semantic networks</a></li>
     </ul>
+  </li>
+
+  <hr/>
+
+  <span class='nav_semititle'><a href="/projects">Collaborations</a></span>
+
+  <li class='toplevel'><a href="/keydata">Keydata Project</a>
+    <ul><li><a href="http://keydataproject.org" target="_blank">[Tools for conceptual history]</a></li></ul>
+  </li>
+  
+  <!-- <li class='toplevel'><a href="http://keydataproject.org" target="_blank">Keydata Project</a></li> -->
+
+  <!-- <li><a href="/word-vectors">Word Vectors in the 18th Century</a></li> -->
+  
+
+  <li class='toplevel'><a href="/prosody">Computational Prosody</a>
+    <ul>
+      <!-- <li><a href="/prosodic">Prosodic and metrical analysis</a></li> -->
+      <li><a href="/prose-rhythm">Prose rhythm</a></li>
+      <li><a href="/poetry-project">Historical metrics</a></li>
+      <!-- <li><a href="/virtual-poetics">Virtual poetics</a></li> -->
+    </ul>
+  </li>
+
+  <hr/>
+<span class='nav_semititle'><a href="/projects">Other</a></span>
+
+
+     <li class='toplevel'><a href="/tools">Tools</a>
+    
+      <ul>
+      <li><a href="/prosodic">Prosodic (metrical parsing)</a></li>
+      <li><a href="/poesy">Poesy (poetic analysis)</a></li>
+      <li><a href="/llp">LLP (literary lang. processing)</a></li>
+      <li><a href="/slingshot">Slingshot (easy parallelization)</a></li>
+      </ul>
     </li>
 
-    <hr/>
+    <li class='toplevel'><a href="/blog">Blog</a></li>
 
-    <span class='nav_semititle'>Appendix</span>
-    <li><a href="/data">Data</a></li>
-    <li><a href="/tools">Tools</a></li>
-    <li><a href="http://github.com/quadrismegistus/literarytextmining" targeet="_blank">Teaching</a></li>
+  <!-- <hr/> -->
+
+<!--   <li><a href="/tools">Tools</a>
+    <ul>
+      <li><a href="/prosodic">Prosodic</a></li>
+      <li><a href="/poesy">Poesy</a></li>
+      <li><a href="/llp">LLP (Literary Language Processing)</a></li>
+      <li><a href="/slingshot">Slingshot</a></li>
+    </ul>
+  </li> -->
+
+   <!-- <span class='nav_semititle'><a href="/tools">Tools</a></span>
+      
+      <li class='midlevel'><a href="/prosodic">Prosodic (metrical parsing)</a></li>
+      <li class='midlevel'><a href="/poesy">Poesy (poetic analysis)</a></li>
+      <li class='midlevel'><a href="/llp">LLP (literary lang. processing)</a></li>
+      <li class='midlevel'><a href="/slingshot">Slingshot (easy parallelization)</a></li> -->
+    <!-- </ul> -->
+  <!-- </li> -->
+
+  <!-- <center><img src="/assets/website-profile.png" alt="Portrait" width="175" border="1"></img></center> -->
+</ul>
+
+
+<!-- <hr/>
+  <center><img src="/assets/mech-24-lg.gif" width="150"></img></center>
+ -->
+<!-- <hr/> -->
+
+  
+
+
+<!--   <li><a href="javascript:void(0)">Contact</a>
+    <ul>
+      <li><a href="http://twitter.com/quadrismegistus">Twitter</a></li>
+      <li><a href="http://twitter.com/quadrismegistus">Github</a></li>
+      <li><a href="mailto:rj416@cam.ac.uk">Email</a></li>
+    </ul>
+  </li> -->
+
+
   </ul>
+
+
+
+
+  <!-- <ul>
+    <span class='toc'>Table of Contents</span>
+    {% for page in pages if page.title %}
+      <li class="menuitem {% if page.id == current_page.id %}active{% endif %}">
+        <a href="{{ page.url }}" data-shortcut="{{page.meta.shortcut}}">
+          {{ page.title }}
+          {% if page.meta.shortcut %}
+            <span class="shortcut">{{page.meta.shortcut|replace({'+':' '})}}</a>
+          {% endif %}
+        </a>
+      </li>
+    {% endfor %}
+  </ul> -->
 </nav>
 </aside>
 
 
 <main class="main-content">
+
   <article class="article">
   {{ content }}
   </article>
 </main>
 <nav class="page-toc">
-  <ul id="page-toc-container"></ul>
+  <ul id="page-toc-container">
+
+  </ul>
 </nav>
 
 <script src="{{ theme_url }}/scripts/highlight.js"></script>
@@ -190,20 +261,6 @@
     `);
   });
 </script>
-
-
-
-
-
-<script>
-$(function() {
-  $('.popup-link').magnificPopup({
-    type:'image'
-  })
-})
-</script>
-
-
 
 </body>
 </html>

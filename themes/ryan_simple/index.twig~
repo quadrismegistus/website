@@ -70,7 +70,6 @@
     </li>
     
 
-    <!--
     <li class='toplevel'><a href="/projects/prosody">Computational Prosody</a>
       <ul>
         <li class='lowlevel'><a href="/projects/prose-rhythm">Prose rhythm</a></li>
@@ -84,7 +83,6 @@
         <li class='lowlevel'><a href="/projects/personification">Personification</a></li>
       </ul>
     </li>
-    -->
 
     <li class='toplevel'><a href="/word-vectors">Word Vectors in the 18th Cent.</a>
     <ul>
@@ -100,7 +98,7 @@
     <span class='nav_semititle'>Appendix</span>
     <li><a href="/data">Data</a></li>
     <li><a href="/tools">Tools</a></li>
-    <li><a href="http://github.com/quadrismegistus/literarytextmining" targeet="_blank">Teaching</a></li>
+    <li><a href="/tutorials">Teaching</a></li>
   </ul>
 </nav>
 </aside>

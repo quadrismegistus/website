@@ -24,14 +24,6 @@
   {% for css_file in config.external_css %}
     <link rel="stylesheet" href="{{ css_file }}" type="text/css" />
   {% endfor %}
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
-
-  <link rel="stylesheet" href="/assets/magnific-popup.css">
-  <script src="/assets/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="/assets/jquery.magnific-popup.min.js"></script>
-  <script src="/assets/jquery-ui.js"></script>
-
 </head>
 <body>
 <!-- <div class='the_site_title'>{{site_title}}</div> -->
@@ -39,80 +31,101 @@
 <aside class="main-nav">
 
 <nav>
-  <div id='site_title_container'>
-    <div id='the_site_title'><a href="/">{{site_title}}</a></div>
-  </div>
+  <a href="/"><div class='the_site_title'>{{site_title}}</div></a>
 
-  <div id='toc_spacer'></div>
-  
+
+<!-- <center><img src="/assets/website-profile.png" alt="Portrait" width="175" border="1"></img></center> -->
+<center><img src="/assets/mech-24-lg.gif" width="150"></img></center>
+
+<!-- <ul> -->
+
+  <!-- <h5>Table of Contents</h5> -->
+  <!-- <br/> -->
   <ul class="toc">
+  
+  <li><a href="/">About me</a></li>
+  
+  <li><a href="/cv">CV</a></li>
+  
+  <li><a href="/projects">Projects</a>
+    <!-- <ul>
+      <li><a href="/abstraction">Abstraction: A Literary History</a></li>
+      <li><a href="/keydata">Keydata Project</a></li>
+      <li><a href="/word-vectors">Word Vectors in the 18th Century</a></li>
+      <li><a href="/virtual-poetics">Virtual Poetics</a></li>
+    </ul> -->
+  </li>
 
-    <span class='nav_semititle'>Contents</a></span>
-    <li><a href="/">About me</a></li>
-    <li><a href="/graphs">Graph Blog</a></li>
-    <li><a href="/cv">CV</a></li>
-    <li><a href="/contact">Contact</a></li>
-    
-    <hr/>
-    
-    <span class='nav_semititle'>
-      <a href="/projects">Research projects</a>
-    </span>
-
-    <li class='toplevel'><a href="/projects/abstraction">Abstraction: A Literary History</a>
-      <ul>
-        <li class='lowlevel'><a href="/assets/talks/kingscollege2020" target="_blank">[Talk/slides on immateriality]</a></li>
-      </ul>
-    </li>
-
-    <li class='toplevel'><a href="/projects/keydata">Keydata Project</a>
-      <ul><li class='lowlevel'><a href="http://keydataproject.org" target="_blank">[Tools for conceptual history]</a></li></ul>
-    </li>
-    
-
-    <!--
-    <li class='toplevel'><a href="/projects/prosody">Computational Prosody</a>
-      <ul>
-        <li class='lowlevel'><a href="/projects/prose-rhythm">Prose rhythm</a></li>
-        <li class='lowlevel'><a href="/projects/poetry">Historical metrics</a></li>
-      </ul>
-    </li>
-
-    <li class='toplevel'><a href="/projects/personhood">Personhood Project</a>
-      <ul>
-        <li class='lowlevel'><a href="/projects/animacy">Animacy</a></li>
-        <li class='lowlevel'><a href="/projects/personification">Personification</a></li>
-      </ul>
-    </li>
-    -->
-
-    <li class='toplevel'><a href="/word-vectors">Word Vectors in the 18th Cent.</a>
+  <li><a href="/tools">Tools</a></li>
+  
+  <li><a href="/talks">Talks</a>
     <ul>
-      <li class='lowlevel'><a href="/word-vectors-1">1. Concepts</a></li>
-      <li class='lowlevel'><a href="/word-vectors-2">2. Methods</a></li>
-      <li class='lowlevel'><a href="/assets/storyscroll/word-vectors-3" target='_blank'>3. From fields to vectors</a></li>
-      <li class='lowlevel'><a href="/assets/storyscroll/word-vectors-4" target='_blank'>4. Semantic networks</a></li>
+      <li><a href="/assets/talks/kingscollege2020" target="_blank">Abstraction: A Literary History</a></li>
     </ul>
-    </li>
+  </li>
 
-    <hr/>
+  
+  	<!-- <ul> -->
+  		<li><i><a href="/word-vectors">Word Vectors in the 18th Century</a></i>
+  			<ul>
+  				<li><a href="/word-vectors-1">1. Concepts</a></li>
+  				<li><a href="/word-vectors-2">2. Methods</a></li>
+  				<li><a href="/word-vectors-3">3. From Fields to Vectors</a></li>
+          <li><a href="/word-vectors-4">4. Semantic Networks</a></li>
+  			</ul>
+  		</li>
+  		<!-- <li><i>Virtual Poetics</i>
+  			<ul>
+  <li><a href="https://twitter.com/bardbott" target="_blank">W. S. Bardbott</a></li>
+  				<li><a href="/virtual-poetics">Virtual Poetics</a></li>
+  				<li><a href="/sonnet-from-numbers">Sonnet made from Numbers</a></li>
+  			</ul>
+  		</li> -->
+  	<!-- </ul> -->
+  <!-- </li> -->
 
-    <span class='nav_semititle'>Appendix</span>
-    <li><a href="/data">Data</a></li>
-    <li><a href="/tools">Tools</a></li>
-    <li><a href="http://github.com/quadrismegistus/literarytextmining" targeet="_blank">Teaching</a></li>
+  <li><a href="/blog">Blog</a></li>
+  <li><a href="javascript:void(0)">Contact</a>
+    <ul>
+      <li><a href="http://twitter.com/quadrismegistus">Twitter</a></li>
+      <li><a href="http://twitter.com/quadrismegistus">Github</a></li>
+      <li><a href="mailto:rj416@cam.ac.uk">Email</a></li>
+    </ul>
+  </li>
+
+
   </ul>
+
+
+
+
+  <!-- <ul>
+    <span class='toc'>Table of Contents</span>
+    {% for page in pages if page.title %}
+      <li class="menuitem {% if page.id == current_page.id %}active{% endif %}">
+        <a href="{{ page.url }}" data-shortcut="{{page.meta.shortcut}}">
+          {{ page.title }}
+          {% if page.meta.shortcut %}
+            <span class="shortcut">{{page.meta.shortcut|replace({'+':' '})}}</a>
+          {% endif %}
+        </a>
+      </li>
+    {% endfor %}
+  </ul> -->
 </nav>
 </aside>
 
 
 <main class="main-content">
+
   <article class="article">
   {{ content }}
   </article>
 </main>
 <nav class="page-toc">
-  <ul id="page-toc-container"></ul>
+  <ul id="page-toc-container">
+
+  </ul>
 </nav>
 
 <script src="{{ theme_url }}/scripts/highlight.js"></script>
@@ -190,20 +203,6 @@
     `);
   });
 </script>
-
-
-
-
-
-<script>
-$(function() {
-  $('.popup-link').magnificPopup({
-    type:'image'
-  })
-})
-</script>
-
-
 
 </body>
 </html>

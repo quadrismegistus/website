@@ -14,8 +14,8 @@ This page is meant as a set of links and resources related to my work using word
 
 *   [Episode 1: Concepts](http://ryanheuser.org/word-vectors-1) (14 Apr 2016)
 *   [Episode 2: Methods](http://ryanheuser.org/word-vectors-2) (1 Jun 2016)
-*   [Episode 3: From Fields to Vectors](http://ryanheuser.org/word-vectors-3) (10 Sep 2016)
-*   [Episode 4: Semantic Networks](http://ryanheuser.org/word-vectors-4) (25 Sep 2016)
+*   [Episode 3: From Fields to Vectors](http://ryanheuser.org/assets/storyscroll/word-vectors-3) (10 Sep 2016)
+*   [Episode 4: Semantic Networks](http://ryanheuser.org/assets/storyscroll/word-vectors-4) (25 Sep 2016)
 
 ### Video
 

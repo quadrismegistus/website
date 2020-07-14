@@ -1,6 +1,6 @@
 # Computer Virus
 
-*\[14 Jul 2020. Part of an ongoing essay on computation, capitalism, and Covid-19.\]*
+<small>[14 Jul 2020. Part of an ongoing essay on computation, capitalism, and Covid-19.]</small>
 
 In 1982, in a small suburb outside of Pittsburgh, the first known computer virus was seen in the wild. Spread by floppy disk, ‘Elk Cloner’, as the virus called itself, broke out in a community of early computer gamers centered around the local high school. But the virus soon began to infect people outside the community, reaching teachers’ instructional computers and eventually escaping to circulate in the Pittsburgh area for years. News of the outbreak soon reached *Scientific American* and *Time Magazine*, becoming the first ‘virus’ to be nationally reported.
 

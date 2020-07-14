@@ -1,3 +1,0 @@
-# Covidualism-19
-
-## 

@@ -1,7 +1,5 @@
 # Computer Virus
 
-*[14 Jul 2020. Part of an ongoing essay on computation, capitalism, and Covid-19.]*
-
 In 1982, in a small suburb outside of Pittsburgh, the first known computer virus was seen in the wild. Spread by floppy disk, ‘Elk Cloner’, as the virus called itself, broke out in a community of early computer gamers based at the local high school. The virus began to infect teachers’ instructional computers, eventually escaping to circulate in the Pittsburgh area for years. News of the outbreak soon reached Scientific American and Time Magazine, becoming the first ‘virus’ to be nationally reported.
 
 The virus was simple and clever. If an infected disk were inserted into an Apple II computer (then popular with gamers for its color screen), the virus would copy itself to the machine’s core memory, or ‘boot sector’. Then, it did nothing. Incubating and infectious, it lay in wait for other disks to be inserted, and would then silently copy itself onto them, too; and if one of these newly infected disks were inserted into another computer, the process would begin anew inside a new ‘host’ machine. Only on the fiftieth reboot of an infected computer would the virus reveal itself, causing its one and only ‘symptom’—blanking the screen and printing the following few lines:
